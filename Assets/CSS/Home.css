@@ -1,0 +1,285 @@
+div {
+    margin: 0;
+ }
+
+body{
+   background-color: #fccf93;    
+   margin: 0;
+ }
+ .logo:hover{
+    background-color: #fccf93;
+    cursor: pointer;
+    border-radius: 1.3057671381936888vh;
+ }
+ header{
+    background-color: 	#cf8a2f;
+    padding: 0.544069640914037vh;
+    padding-left: 1.088139281828074vh;
+    padding-right: 1.088139281828074vh;
+    text-align: center; 
+    display: grid;
+    grid-template-columns: 1fr auto 1fr; 
+    align-items: center;
+    border-bottom: 0.35vh solid black;
+
+}
+header ul {
+  display: flex;
+  margin-top: 2.720348204570185vh;
+  margin-bottom: 2.720348204570185vh;
+  grid-column: 3;  
+  justify-self: end;     
+}
+header ul, header li {
+   display: flex;
+   margin-left: 2.176278563656148vh;
+   list-style: none;
+}
+header ul li {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 1.088139281828074vh;
+   background-color: #fccf93;
+}
+header li{
+   display: flex;
+   justify-content: center;
+   border: 0.1088139281828074vh solid black;
+   border-radius: 1.632208922742111vh;
+}
+header li:hover{
+   background-color: white;
+   cursor: pointer;
+}
+header ul li a {
+ font-size: 2.8vh;
+}
+header .logo{
+    display: flex;
+    justify-self: center;
+    background-color: 	#cf8a2f;
+    left: 50%;
+    font-family: Apple Chancery, cursive;
+    font-size: 3.2vh;
+    text-decoration: none;
+    color: black;
+    border-radius: 1.3057671381936888vh;
+    grid-column: 2;        
+    justify-self: center;  
+
+}
+.barradebusca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barradebusca form {
+    display: flex;
+    align-items: center;
+    gap: 0.5vh; /* espaço entre input e botão */
+}
+
+nav, main, aside {
+   min-height: 10vh;
+}
+nav, aside {
+   border: 0.3vh solid rgb(65, 110, 146);
+   display: flex;
+   margin: 0;
+   padding: 0;
+   width: 75%;
+   height: 97%;
+   overflow: hidden;
+   background-size: 120% 230%;   
+   background-position: right 50% bottom 82%;
+   background-repeat: no-repeat;
+}
+nav {
+  background-image: url("https://media.tenor.com/17pFKrJQR4AAAAAM/default-dance-fortnite.gif");  
+}
+aside {
+  background-image: url("https://media1.tenor.com/m/ZeAJDaQHRWkAAAAd/ubg-roblox.gif");
+}
+main {
+   display: flex;
+   flex-wrap: nowrap;
+   align-items: center;
+   margin: 0;
+   padding: 3vh;
+   width: 70%;
+   overflow: hidden;
+   border-right: 0.35vh solid black;
+   border-left: 0.35vh solid black;
+   background-color: blanchedalmond;
+   border-bottom: 0.35vh solid black;
+}
+.OqeOq {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 0.22vh solid black;
+    width: 30%;
+    height: 70%;
+    word-break: break-word;
+    font-size: 1.632208922742111vh;
+    text-align: left;
+    text-indent: 3.8vh;
+    padding: 1.088139281828074vh;
+    background-color: #fccf93;
+}
+.OqeOq h1 {
+    font-size: 2.7vh;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-indent: 0;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 2.2vh;
+    margin: 0 2.2vh 0 2.2vh;
+    
+}
+.SpasodoAnunciodrt, .SpasodoAnuncioesq {
+      display: flex;
+      width: 15.088139281828074vh;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      margin: 0;
+      margin-top: 2vh;
+      margin-bottom: 2vh;
+      padding: 0;
+      background-color: white;
+}
+.SpasodoAnunciodrt{}
+.SpasodoAnuncioesq{}
+.Setores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2.176278563656148vh 0 2.176278563656148vh 0;
+    padding: 1.088139281828074vh;
+    gap: 1.632208922742111vh;
+    
+}
+.Setores div {
+    margin: 0;
+    padding: 0;
+}
+.regioes div {
+    margin: 0;
+    padding: 0;
+}
+.regioes {
+    border: 0.22vh solid black;
+    border-radius: 1.088139281828074vh;
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    grid-template-columns: 16.974972796517953vh 14vh;
+    grid-template-rows: 9.793253536452665vh 12.42vh;
+    margin: 0;
+    padding: 0;
+    gap: 0%;
+    overflow: hidden;
+    background-color: #fccf93;
+}
+.regioes:hover {
+    background-color: white;
+}
+.regioes:hover .descricao {
+    background: linear-gradient(to bottom, transparent, rgb(255, 255, 255));
+}
+.regioes h1 {
+    text-align: center;
+    font-size: 3.4820457018498367vh;
+}
+
+.foto {
+  grid-column: 1;  
+  grid-row: 1;     
+  margin: 0;
+  gap: 0;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-left: 0.22vh solid black;
+  grid-column: 2;  
+  grid-row: 1;     
+  margin: 0;
+  gap: 0;
+}
+.titulo h1 {
+    font-size: 2.7vh;
+    text-align: center;
+    word-break: break-all;
+}
+
+.descricao {
+  border-top: 0.22vh solid black;
+  grid-column: 1 / 3; 
+  grid-row: 2;         
+  margin: 0;
+  gap: 0;
+  overflow: hidden;
+  background: linear-gradient(to bottom, transparent, rgb(136, 104, 52));
+}
+.descricao p {
+    font-size: 1.632208922742111vh;
+    text-align: justify;
+    margin: 0.19586507072905332vh;
+    word-break: break-word;
+    text-indent: 3.8vh;
+}
+
+ footer {
+    font-size: 2.8vh;
+    display: block;
+    margin-top: 3.264417845484222vh;
+    unicode-bidi: isolate;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+
+ a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+ }
+ 
+#lupa {
+   display: flex;
+   align-self: center;
+   width: 2.720348204570185vh;
+   height: 2.720348204570185vh;
+   background-color: transparent;
+   border: none;
+   outline: none;
+   cursor: pointer; 
+   padding: 0;
+}
+#submit {
+   width: 2.720348204570185vh;
+   height: 2.720348204570185vh;
+      padding: 0;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      cursor: pointer;
+}
+#inputBusca {
+    background-color:transparent;
+    outline: none;
+    padding-left:0.544069640914037vh;
+    font-style:italic;
+    font-size:1.9586507072905333vh;
+    border:none;
+    height:3.4820457018498367vh;
+    width:28.291621327529924vh;
+}

@@ -1,0 +1,290 @@
+body{
+   background-color: bisque;    
+    margin: 0;
+ }
+ header{
+    background-color: burlywood;
+    padding: 5px;
+   
+    
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid black;
+ }
+
+header ul{
+   
+   display: flex;
+   margin-left: 20px;
+   list-style: none;
+   
+}
+header ul li {
+   margin-left: 20px;
+   display: block;
+   padding: 10px;
+   background-color: navajowhite;
+
+   border: 1px solid black;
+   border-radius: 15px;
+
+   align-content: center;
+}
+
+header ul li a {
+ font-size: 20px;
+}
+
+header li:hover{
+   background-color: white;
+   cursor: pointer;
+}
+
+.container{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 10%;
+}
+
+   /* Caixa de perquisa */
+
+#lupa {
+   width: 25px;
+   height: 25px;
+   margin-top: 1.5%;
+   background-color: transparent;
+   border: none;
+   outline: none;
+   
+   cursor: pointer; 
+}
+#submit {
+      background-color: transparent;
+      border: none;
+      outline: none;
+      cursor: pointer;
+}
+
+#inputBusca {
+    background-color:transparent;
+    outline: none;
+    padding-left:5px;
+    border:none;
+    height:32px;
+    width:260px;
+
+    font-style:italic;
+    font-size:18px;
+}
+
+   /* Barras Laterais */
+   
+ nav {
+     flex: 0 0 15%; /* trava o tamanho do flex */
+     border-right: 3px solid black;
+     min-width: 120px;
+     border-bottom: 3px solid black;
+     padding: 0.5%;
+}
+ nav ul{
+   list-style: none;
+   padding-left: 3px;
+ }
+
+ #ads{
+   min-width: 120px;
+   flex: 0 0 15%;
+   border-left: 3px solid black;
+   border-bottom:3px solid black;
+ }
+ #ads img{
+   min-width: 100px;
+   max-width: 100%;
+ }
+
+ #ads img:hover {
+   transform: rotate(360deg);
+   transition: all 1s ease-in-out;
+}
+   /* Conteudo Principal */
+
+ main {
+   min-width: 200px;
+   flex: 1;
+   display: flex;
+   background-color: blanchedalmond;
+   border: 2px solid rgb(0, 0, 0);
+
+   margin-top: 20px;
+ }
+
+ article {
+   min-width: 200px;
+   margin-left: 1%;
+   margin-right: 1%;
+ }
+
+ 
+ .figure-right{
+    background-color: beige;
+    display: inline-block;   
+    max-width: 40%;          
+    padding: 0.5%;
+    margin: 2px;
+    border: 2px ridge black;
+    
+    float: right;
+   }
+.figure-left{
+    background-color: beige;
+    display: inline-block;   
+    max-width: 40%;          
+    padding: 0.5%;
+    margin: 2px;
+    border: 2px ridge black;
+    
+    float: left;
+}
+
+   figure img{
+    max-width: 100%;
+}
+  
+
+    /* Roda Pé */
+
+ footer {
+    font-size: 14px;
+    display: block;
+    margin-top: 30px;
+    unicode-bidi: isolate;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+   /* logos */
+ footer .logo{
+    font-family: Apple Chancery, cursive;
+    font-size: 37px;
+    text-decoration: none;
+    color: floralwhite;
+
+}
+header .logo{
+    font-family: Apple Chancery, cursive;
+    font-size: 27px;
+    text-decoration: none;
+    color: black;
+}
+
+   /* Links */
+
+footer a {
+    color: #ffc500;
+    text-decoration: none;
+ }
+
+ a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+   /* Textos */
+   h1{
+      margin-left: 1%;
+   }
+
+ p {
+    font-size: x-large;
+}
+
+ .logo:hover{
+    background-color: khaki;
+    cursor: pointer;
+    border-radius: 1.3057671381936888vh;
+ }
+
+ .Setores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2.176278563656148vh 0 2.176278563656148vh 0;
+    padding: 1.088139281828074vh;
+    gap: 1.632208922742111vh;
+    
+}
+.Setores div {
+    margin: 0;
+    padding: 0;
+}
+.regioes div {
+    margin: 0;
+    padding: 0;
+}
+.regioes {
+    border: 0.22vh solid black;
+    border-radius: 1.088139281828074vh;
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    grid-template-columns: 16vh 12vh;
+    grid-template-rows: 9.793253536452665vh 12.42vh;
+    margin: 0;
+    padding: 0;
+    gap: 0%;
+    overflow: hidden;
+    background-color: #fccf93;
+}
+.regioes:hover {
+    background-color: white;
+}
+.regioes:hover .descricao {
+    background: linear-gradient(to bottom, transparent, rgb(255, 255, 255));
+}
+.regioes h1 {
+    text-align: center;
+    font-size: 3.4820457018498367vh;
+}
+
+.foto {
+  grid-column: 1;  
+  grid-row: 1;     
+  margin: 0;
+  gap: 0;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-left: 0.22vh solid black;
+  grid-column: 2;  
+  grid-row: 1;     
+  margin: 0;
+  gap: 0;
+}
+.titulo h1 {
+    font-size: 2.7vh;
+    text-align: center;
+    word-break: break-all;
+}
+
+.descricao {
+  border-top: 0.22vh solid black;
+  grid-column: 1 / 3; 
+  grid-row: 2;         
+  margin: 0;
+  gap: 0;
+  overflow: hidden;
+  background: linear-gradient(to bottom, transparent, rgb(136, 104, 52));
+}
+.descricao p {
+    font-size: 1.632208922742111vh;
+    text-align: justify;
+    margin: 0.19586507072905332vh;
+    word-break: break-word;
+    text-indent: 3.8vh;
+}
