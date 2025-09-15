@@ -11,13 +11,13 @@
         <a href="Home.html" class="logo">WikiMilks</a>
         <ul>
             <li title="Não Funciona" class="barradebusca">
-                    <form action="pesquisa.html" method="post">
+                    <form>
                         <input id="inputBusca" type="text" placeholder="Pesquisar..." name="search">
-                        <button id="submit" type="submit"><img id="lupa" src="Assets/img/lupa.png" height="55.71273122959739vh" width="55.71273122959739vh" alt="imgLupa"></button>
+                        <button id="submit" onclick="mostrarMensagemPesquisa()" type="submit"><img id="lupa" src="Assets/img/lupa.png" height="55.71273122959739vh" width="55.71273122959739vh" alt="imgLupa"></button>
                     </form>
             </li>
-            <li title="Não Funciona" onclick="window.location.href='Login.html'" style="cursor:pointer;"><a title="Não Funciona" href="Login.html">Logar</a></li>
-            <li title="Não Funciona" onclick="window.location.href='SingIn.html'" style="cursor:pointer;"><a title="Não Funciona" href="SingIn.html">Increverse</a></li>
+            <li title="Não Funciona" onclick="window.location.href=mostrarMensagemLogin()" style="cursor:pointer;"><a title="Não Funciona" href="Home.html">Logar</a></li>
+            <li title="Não Funciona" onclick="window.location.href=mostrarMensagemLogin()" style="cursor:pointer;"><a title="Não Funciona" href="Home.html">Increverse</a></li>
         </ul>
     </header>
 

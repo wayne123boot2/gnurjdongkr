@@ -135,6 +135,9 @@ main {
     text-align: left;
     text-indent: 0;
 }
+.OqeOq a {
+    font-size: 1.4vh;
+}
 .container{
     display: flex;
     justify-content: space-between;
