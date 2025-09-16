@@ -215,6 +215,7 @@ footer a {
 .regioes div {
     margin: 0;
     padding: 0;
+
 }
 .regioes {
     border: 2px solid black;
@@ -229,6 +230,7 @@ footer a {
     gap: 0%;
     overflow: hidden;
     background-color: #fccf93;
+    object-fit: fill;
 }
 .regioes:hover {
     background-color: white;
@@ -365,10 +367,11 @@ footer a {
     }
 
     .foto img {
-        width: 100%;
-        height: auto !important;
-        object-fit: cover;
+        width: 144px;
+        height: 80px;
+        object-fit: fill;
     }
+
 
     .titulo {
         flex: 1;
