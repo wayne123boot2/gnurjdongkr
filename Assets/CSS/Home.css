@@ -21,15 +21,21 @@ body{
     grid-template-columns: 1fr auto 1fr; 
     align-items: center;
     border-bottom: 3.2165px solid black;
-
 }
 header ul {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 25px;
   margin-bottom: 25px;
   grid-column: 3;  
   justify-self: end;     
 }
+@media (max-width: 1420px) {
+    header li{
+         margin-top: 10px;
+    }
+}
+
 header ul, header li {
    display: flex;
    margin-left: 20px;
@@ -99,6 +105,28 @@ header .logo{
     height:32px;
     width:260px;
 }
+@media (max-width:550px) {
+    #inputBusca {
+        width:0px;
+        padding: 0;
+    }
+    header ul li a {
+    font-size: 20px;
+}
+    header ul, header li {
+    margin-left: 10px;
+}
+}
+
+@media (max-width:310px) {
+    header ul li a {
+    font-size: 10px;
+}
+    #inputBusca {
+        width:0px;
+        padding: 0;
+    }
+}
 .barradebusca {
     display: flex;
     align-items: center;
@@ -141,11 +169,12 @@ aside {
 }
 main {
    display: flex;
-   flex-wrap: nowrap;
+   flex-wrap: wrap-reverse;
    justify-content: center;
    align-items: center;
    margin: 0;
-   padding: 27.6px;
+   padding: 0px;
+   padding-top: 10px;
    width: 70%;
    overflow: hidden;
    border-right: 3.2165px solid black;
@@ -153,8 +182,14 @@ main {
    background-color: blanchedalmond;
    border-bottom: 3.2165px solid black;
 }
+@media (min-width: 1420px){
+    main {
+    flex-wrap: nowrap;
+    padding: 27.6px;
+}
+}
 main .Setores, main .OqeOq{
-    border: 3px solid red;
+   /* border: 3px solid red; */
 }
 
 .OqeOq {
@@ -169,6 +204,11 @@ main .Setores, main .OqeOq{
     padding: 10px;
     background-color: #fccf93;
     box-sizing: border-box;
+}
+@media (max-width: 1420px) {
+    .OqeOq{
+        width: 95%;
+    }
 }
 .OqeOq h1 {
     font-size: 24.8px;
@@ -196,6 +236,24 @@ main .Setores, main .OqeOq{
       padding: 0;
       background-color: white;
 }
+@media (max-width:962px) {
+    .SpasodoAnunciodrt, .SpasodoAnuncioesq {
+      display: flex;
+      width: 0;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+      background-color: transparent;
+}
+    .container{
+        margin: 0;
+    }
+    main{
+        width: 100%;
+    }
+}
 .Setores {
     display: flex;
     flex-wrap: wrap;
@@ -204,6 +262,11 @@ main .Setores, main .OqeOq{
     padding: 10px;
     gap: 15px;
     
+}
+@media (max-height: 738px) {
+    .Setores{
+        padding: 0;
+    }
 }
 .Setores div {
     margin: 0;
