@@ -370,6 +370,7 @@ footer a {
     main {
         flex: none;
         width: 100%;
+        max-width: 98.8%;
         margin-top: 10px;
         border: 2px solid rgb(0, 0, 0);
     }
@@ -468,6 +469,9 @@ footer a {
         float: none;
         margin: 10px auto;
         display: block;
+    }
+    footer {
+        a
     }
     footer p {
         font-size: 14px;
