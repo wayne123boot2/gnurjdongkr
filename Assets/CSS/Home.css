@@ -115,27 +115,28 @@ main {
    border-bottom: 3.2165px solid black;
 }
 .OqeOq {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    display: block;
     border: 2px solid black;
     width: 30%;
-    height: 70%;
-    word-break: break-word;
+    height: auto;
+    overflow-wrap: break-word;
     font-size: 15px;
     text-align: left;
     text-indent: 35px;
     padding: 10px;
     background-color: #fccf93;
+    box-sizing: border-box;
 }
 .OqeOq h1 {
     font-size: 24.8px;
     margin: 0;
     padding: 0;
-    text-align: left;
+    padding-bottom: 7px;
+    text-align: center;
     text-indent: 0;
 }
 .OqeOq a {
+    margin-left: 22px;
     font-size: 13px;
 }
 .container{
