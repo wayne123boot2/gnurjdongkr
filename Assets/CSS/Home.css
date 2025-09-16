@@ -3,8 +3,9 @@ div {
  }
 
 body{
-   background-color: #fccf93;    
    margin: 0;
+   background-image: url();
+   background-repeat: repeat;    
  }
  .logo:hover{
     background-color: #fccf93;
