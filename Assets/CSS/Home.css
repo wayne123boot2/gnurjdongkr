@@ -4,8 +4,10 @@ div {
 
 body{
    margin: 0;
-   background-image: url();
-   background-repeat: repeat;    
+   background-image: url("https://preview.redd.it/reapost-for-image-link-v0-c6203gqpsgpf1.png?width=1080&crop=smart&auto=webp&s=8c364e00663d26b1bdeb4d18652d1d145cd38457"); 
+   background-repeat: repeat;
+   background-attachment: fixed;
+   background-size: 10%;   
  }
  .logo:hover{
     background-color: #fccf93;
@@ -346,12 +348,22 @@ main {
  footer {
     font-size: 25.732px;
     display: block;
-    margin-top: 30px;
     unicode-bidi: isolate;
     word-wrap: break-word;
     text-align: center;
 }
-
+.fundodofooter{
+    border-left: 3.2165px solid rgb(0, 0, 0);
+    border-right: 3.2165px solid rgb(0, 0, 0);
+    border-bottom: 3.2165px solid rgb(0, 0, 0);
+    display: flex;
+    background-color: #fccf93;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+}
 
  a{
     text-decoration: none;

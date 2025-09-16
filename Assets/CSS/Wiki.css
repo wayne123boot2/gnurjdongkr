@@ -1,5 +1,8 @@
 body{
-   background-color: bisque;    
+   background-image: url("https://preview.redd.it/reapost-for-image-link-v0-c6203gqpsgpf1.png?width=1080&crop=smart&auto=webp&s=8c364e00663d26b1bdeb4d18652d1d145cd38457"); 
+   background-repeat: repeat;
+   background-attachment: fixed;
+   background-size: 10%;    
     margin: 0;
  }
  header{
@@ -83,6 +86,7 @@ header li:hover{
    /* Barras Laterais */
    
  nav {
+        background-color: bisque; 
      flex: 0 0 15%; 
         width: 100%;
         min-width: auto;
@@ -98,6 +102,7 @@ header li:hover{
  }
 
  #ads{
+   background-color: bisque; 
    min-width: 120px;
    flex: 0 0 15%;
    border-left: 3px solid black;
@@ -159,14 +164,27 @@ header li:hover{
     /* Roda Pé */
 
  footer {
-    font-size: 14px;
+    
     display: block;
-    margin-top: 30px;
     unicode-bidi: isolate;
     word-wrap: break-word;
     text-align: center;
+    margin: 10px auto 0px;
+    width: 50%;
 }
-
+footer a, footer p {
+    margin: 0px 10px 0px 10px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+footer p {
+    background-color: #fccf93;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
    /* logos */
  footer .logo{
     font-family: Apple Chancery, cursive;
@@ -344,6 +362,8 @@ footer a {
         border: none;
         margin-bottom: 10px;
         padding: 0.5em;
+        border-bottom: 3px solid black;
+        border-right: 3px solid black;
     }
 
     main {
