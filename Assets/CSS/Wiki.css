@@ -81,6 +81,7 @@ header li:hover{
     font-size:18px;
 }
 
+
    /* Barras Laterais */
    
  nav {
@@ -102,7 +103,6 @@ header li:hover{
    border-bottom:3px solid black;
  }
  #ads img{
-   min-width: 100px;
    max-width: 100%;
  }
 
@@ -287,4 +287,5 @@ footer a {
     margin: 0.19586507072905332vh;
     word-break: break-word;
     text-indent: 3.8vh;
+}
 }
