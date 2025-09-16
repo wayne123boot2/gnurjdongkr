@@ -188,9 +188,6 @@ main {
     padding: 27.6px;
 }
 }
-main .Setores, main .OqeOq{
-   /* border: 3px solid red; */
-}
 
 .OqeOq {
     display: block;
@@ -263,7 +260,7 @@ main .Setores, main .OqeOq{
     gap: 15px;
     
 }
-@media (max-height: 738px) {
+@media (max-width: 1420px) {
     .Setores{
         padding: 0;
     }
