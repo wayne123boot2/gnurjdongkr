@@ -69,6 +69,36 @@ header .logo{
     justify-self: center;  
 
 }
+#lupa {
+   display: flex;
+   align-self: center;
+   width: 25px;
+   height: 25px;
+   background-color: transparent;
+   border: none;
+   outline: none;
+   cursor: pointer; 
+   padding: 0;
+}
+#submit {
+   width: 25px;
+   height: 25px;
+      padding: 0;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      cursor: pointer;
+}
+#inputBusca {
+    background-color:transparent;
+    outline: none;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+}
 .barradebusca {
     display: flex;
     align-items: center;
@@ -79,6 +109,8 @@ header .logo{
     align-items: center;
     gap: 4.6px;
 }
+
+
 
 nav, main, aside {
    min-height: 91.9px;
@@ -101,9 +133,16 @@ nav {
 aside {
   background-image: url("https://media1.tenor.com/m/ZeAJDaQHRWkAAAAd/ubg-roblox.gif");
 }
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20.22px;
+    margin: 0 20.22px 0 20.22px;
+}
 main {
    display: flex;
    flex-wrap: nowrap;
+   justify-content: center;
    align-items: center;
    margin: 0;
    padding: 27.6px;
@@ -114,6 +153,10 @@ main {
    background-color: blanchedalmond;
    border-bottom: 3.2165px solid black;
 }
+main .Setores, main .OqeOq{
+    border: 3px solid red;
+}
+
 .OqeOq {
     display: block;
     border: 2px solid black;
@@ -139,12 +182,7 @@ main {
     margin-left: 22px;
     font-size: 13px;
 }
-.container{
-    display: flex;
-    justify-content: space-between;
-    gap: 20.22px;
-    margin: 0 20.22px 0 20.22px;
-}
+
 
 .SpasodoAnunciodrt, .SpasodoAnuncioesq {
       display: flex;
@@ -206,6 +244,10 @@ main {
   margin: 0;
   gap: 0;
 }
+.foto img {
+    width: 156px; height: 90px;
+  object-fit:fill;
+}
 
 .titulo {
   display: flex;
@@ -255,33 +297,3 @@ main {
     color: rgb(0, 0, 0);
  }
  
-#lupa {
-   display: flex;
-   align-self: center;
-   width: 25px;
-   height: 25px;
-   background-color: transparent;
-   border: none;
-   outline: none;
-   cursor: pointer; 
-   padding: 0;
-}
-#submit {
-   width: 25px;
-   height: 25px;
-      padding: 0;
-      background-color: transparent;
-      border: none;
-      outline: none;
-      cursor: pointer;
-}
-#inputBusca {
-    background-color:transparent;
-    outline: none;
-    padding-left:5px;
-    font-style:italic;
-    font-size:18px;
-    border:none;
-    height:32px;
-    width:260px;
-}
